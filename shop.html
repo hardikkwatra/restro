@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://kit.fontawesome.com/7a35e41647.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a8f8257674.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Lobster&family=Short+Stack&family=Source+Serif+4:wght@200&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- about navbar start here -->
+  <nav class="navbar navbar-expand-lg navbar-dark position-fixed">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">RESTURENT</a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="left_side_nav d-flex justify-content-lg-center p-2 w-100">
+          <form class="d-flex">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a aria-current="page" href="index.html">HOME</a>
+              </li>
+
+
+              <li class="nav-item dropdown">
+                <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  ABOUT
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="about.html">About Us</a></li>
+                  <li><a class="dropdown-item" href="about_team.html">About Team</a></li>
+                </ul>
+
+
+              </li>
+              <li class="nav-item">
+                <a aria-current="page" href="menu.html">MENU</a>
+              </li>
+              <li class="nav-item">
+                <a aria-current="page" href="news.html">NEWS</a>
+              </li>
+
+              <li class="nav-item">
+                <a aria-current="page" href="reservatin.html">RESERVATION</a>
+              </li>
+              <li class="nav-item">
+                <a aria-current="page" href="shop.html">SHOP</a>
+              </li>
+              <li class="nav-item">
+                <a aria-current="page" href="contact.html">CONTACT</a>
+              </li>
+            </ul>
+
+          </form>
+        </div>
+      </div>
+      <div class="btn_of_top">
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">RESERVATION</button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+
+
+    <!-- modal trigger resrvation button -->
+
+
+    <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-md">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <div class="innerhead">
+                      <h5 class="modal-title" id="exampleModalLabel">RESERVE YOUR TABLE</h5>
+                      <p class="aftsign">It's quick and easy.</p>
+                  </div>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <form>
+                      <div class="d-flex">
+                          <input type="text" class="form-control first-name" placeholder="First name">
+                          <input type="text" class="form-control surname" placeholder="Surname">
+                      </div>
+                      <div>
+                          <input type="text" class="form-control" placeholder="Mobile no.">
+                      </div>
+                      <button class="btn btn-primary">BOOK NOW</button>
+
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- background image -->
+
+  <div class="shop_img">
+      <div class="container-fluid">
+          <div class="row">
+              <img src="3042.jpg" alt="img" class="img-fluid">
+          </div>
+      </div>
+  </div>
+
+
+  <section class="after_food_video">
+    <div class="container">
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="inner_after_food_video">
+                    <h3>Popular Dishes</h3>
+                    <h1>Our Delicious Foods</h1>
+                    <p>Food is any substance consumed to provide nutritional
+                        support for an organism.</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="inner_after_food_video">
+                    <p>Food is any substance consumed to provide nutritional
+                        support for an organism.</p>
+                    <a href="menu.html" class="btn btn-success">FULL MENU</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- card area start here -->
+<div class="news_card">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-12">
+                <div class="inner_menu_area">
+                    <img src="mark1.jpg" alt="img" class="img-fluid">
+                    <div class="inner_menu_area_list">
+                        <div class="icon_star d-flex align-items-center">
+                            <h5>food name</h5>
+                            <p>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </p>
+                        </div>
+                        <div class="inner_menu_area_text">
+                            <h1>fried chicken</h1>
+                            <h2>PRICE: <span>49$</span></h2>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">RESERVATION</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12">
+                <div class="inner_menu_area">
+                    <img src="mark1.jpg" alt="img" class="img-fluid">
+                    <div class="inner_menu_area_list">
+                        <div class="icon_star d-flex align-items-center">
+                            <h5>food name</h5>
+                            <p>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </p>
+                        </div>
+                        <div class="inner_menu_area_text">
+                            <h1>fried chicken</h1>
+                            <h2>PRICE: <span>49$</span></h2>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">RESERVATION</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12">
+                <div class="inner_menu_area">
+                    <img src="mark1.jpg" alt="img" class="img-fluid">
+                    <div class="inner_menu_area_list">
+                        <div class="icon_star d-flex align-items-center">
+                            <h5>food name</h5>
+                            <p>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </p>
+                        </div>
+                        <div class="inner_menu_area_text">
+                            <h1>fried chicken</h1>
+                            <h2>PRICE: <span>49$</span></h2>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">RESERVATION</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12">
+                <div class="inner_menu_area">
+                    <img src="mark1.jpg" alt="img" class="img-fluid">
+                    <div class="inner_menu_area_list">
+                        <div class="icon_star d-flex align-items-center">
+                            <h5>food name</h5>
+                            <p>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </p>
+                        </div>
+                        <div class="inner_menu_area_text">
+                            <h1>fried chicken</h1>
+                            <h2>PRICE: <span>49$</span></h2>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">RESERVATION</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- OUR SPCL DISHES -->
+
+<div class="text_in_shop">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="inner_text_in_shop">
+                    <h1>OUR SPECIAL DISHES</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SPECIAL CAROUSEL -->
+<div class="carousel_spcl">
+
+    <input type="radio" name="position" />
+    <input type="radio" name="position" />
+    <input type="radio" name="position" checked />
+    <input type="radio" name="position" />
+    <input type="radio" name="position" />
+    <main id="carousel">
+      <div class="item">
+        <img src="slide_img4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">BURGER</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">ORDER</a>
+            </div>
+      </div>
+      <div class="item">
+          <img src="slide_img2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">PIZZA</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">ORDER</a>
+            </div>
+      </div>
+      <div class="item">
+          <img src="abt_img.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Fries</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">ORDER</a>
+            </div>
+      </div>
+      <div class="item">
+          <img src="abt_img.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">ROLL</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">ORDER</a>
+            </div>
+      </div>
+      <div class="item">
+          <img src="abt_img.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">SANDWICH</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">ORDER</a>
+            </div>
+      </div>
+      <main>
+</div>
+
+
+
+
+<!-- footer start here  -->
+
+<footer class="footer_index">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="footer_inner">
+            <p>Chef Taylor Bonnyman, working in collaboration with Head Chef Marguerite Keogh, offer elegant & playful modern British cooking.</p>
+            
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+          <div class="footer_inner">
+            <ul class="list-group list-inline">
+              <li class="list-item py-2"><a href="index.html">HOME</a></li>
+              <li class="list-item py-2"><a href="menu.html">MENU</a></li>
+              <li class="list-item py-2"><a href="#">RESERVATION</a></li>
+              <li class="list-item py-2"><a href="#">SHOP</a></li>
+              <li class="list-item py-2"><a href="#">NEWS</a></li>
+              <li class="list-item py-2"><a href="#">CONTACT</a></li>
+  
+            </ul>
+  
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="footer_inner text-center">
+            <button class="btn" type="button"> RESERVATION</button>
+            <h3>FOLLOW</h3>
+            <div class="px-2 icon_footer">
+              <i class="px-2 fab fa-facebook-f"></i>
+              <i class="px-2 fab fa-instagram"></i>
+              <i class="px-2 fab fa-twitter"></i>
+              <i class="px-2 fab fa-snapchat-ghost"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="footer_inner">
+            <p class="address">
+              +91-8920319011 <br>
+              bookatable@resturent.com <br>
+              Dehli, India
+            </p>
+  
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+

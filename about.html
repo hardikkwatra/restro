@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="stylesheet.css">
+  <script src="https://kit.fontawesome.com/7a35e41647.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=B612&family=Bitter:wght@100&family=Great+Vibes&family=Pacifico&family=Raleway:wght@100&family=Roboto:wght@100&family=Rubik:wght@300&display=swap" rel="stylesheet">
+<body>
+  <!-- about navbar start here -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark position-fixed">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">RESTURENT</a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="left_side_nav d-flex justify-content-lg-center p-2 w-100">
+          <form class="d-flex">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a aria-current="page" href="index.html">HOME</a>
+              </li>
+
+
+              <li class="nav-item dropdown">
+                <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  ABOUT
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="about.html">About Us</a></li>
+                  <li><a class="dropdown-item" href="about_team.html">About Team</a></li>
+                </ul>
+
+
+              </li>
+              <li class="nav-item">
+                <a aria-current="page" href="menu.html">MENU</a>
+              </li>
+              <li class="nav-item">
+                <a aria-current="page" href="news.html">NEWS</a>
+              </li>
+
+              <li class="nav-item">
+                <a aria-current="page" href="reservatin.html">RESERVATION</a>
+              </li>
+              <li class="nav-item">
+                <a aria-current="page" href="shop.html">SHOP</a>
+              </li>
+              <li class="nav-item">
+                <a aria-current="page" href="contact.html">CONTACT</a>
+              </li>
+            </ul>
+
+          </form>
+        </div>
+      </div>
+      <div class="btn_of_top">
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">RESERVATION</button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- modal trigger resrvation button -->
+
+
+  <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-md">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="innerhead">
+            <h5 id="exampleModalLabel">RESERVE YOUR <span>TABLE</span> </h5>
+            <p class="aftsign">It's quick and easy.</p>
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="row d-flex align-items-center justify-content-center">
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <label for="">Name <input type="text" placeholder="Name" class="form-control"></label>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <label for="">Email <input type="email" placeholder="Email" class="form-control"></label>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <label for="">Phone <input type="text" placeholder="Phone" class="form-control"></label>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <label for="">Date <input type="text" placeholder="Date" class="form-control"></label>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <label for="">Time <input type="time" placeholder="Time" class="form-control"></label>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <label for="">Seats <input type="number" placeholder="person" class="form-control"></label>
+              </div>
+              <div class="col-lg-12 col-md-12">
+                <label for=""> Special Request <textarea name="" id="" cols="55" rows="8"
+                    placeholder="Message"></textarea></label>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-8 ">
+                <button class="btn" type="button">BOOK NOW</button>
+              </div>
+
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- about section image start here -->
+
+  <section class="abt_slide">
+    <div class="container-fluid">
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-lg-6 col-md-8 col-sm-12 text-center">
+          <div class="text_abt">
+            <h1 class="text">RESTURENT</h1>
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id maiores itaque aspernatur. Lorem
+              ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    </div>
+  </section>
+
+
+
+  <!-- visit our RESTURENT section start here   -->
+
+  <section class="card_section d-flex py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 col-sm-12">
+          <div class="card">
+            <img src="mark1.jpg" class="card-img-top" alt="img">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 col-sm-12">
+          <div class="card">
+            <img src="mark2.jpg" class="card-img-top" alt="img">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 col-sm-12">
+          <div class="card_area_text">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-tittle">Visit Our</h5>
+                <h6 class="card-subtitle">RESTAURANT</h6>
+                <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                  doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi. .</p>
+                <button type="button" class="btn">GET LOCATION</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- OUR VALUES -->
+
+  <section class="our_values_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12 our_values_content ">
+          <div class="inner_our_values_section py-2 ">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Visit Our</h5>
+                <h6 class="card-subtitle mb-2 text-muted">RESTAURANT</h6>
+                <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                  doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi.</p>
+                <button type="button" class="btn ">GET LOCATION</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-12">
+          <div class="img_our_values_section">
+            <img src="abt_img.jpg" alt="" class="img-fluid py-2">
+            <img src="abt_img.jpg" alt="" class="img-fluid py-2">
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12">
+          <div class="img_our_values_section">
+            <img src="abt_img.jpg" alt="" class="img-fluid py-2">
+            <img src="abt_img.jpg" alt="" class="img-fluid py-2">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+
+
+
+  <!-- testimonial start here -->
+
+  <section class="TESTIMONIALS d-flex">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 inner_text_testimonials">
+          <h3>Customer</h3>
+          <h1>TESTIMONIALS</h1>
+        </div>
+      </div>
+      <div class="row ">
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <div class="test_review d-flex justify-content-center align-items-center">
+            <img src="avtr.jpg" alt="img" class="img-fluid">
+            <div class="text">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto sed ullam ipsam, accusantium corporis ipsum quis dolorem temporibus assumenda labore?</p>
+              <h3>AVTAR</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <div class="test_review d-flex justify-content-center align-items-center">
+            <img src="avtr.jpg" alt="img" class="img-fluid">
+            <div class="text">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto sed ullam ipsam, accusantium corporis ipsum quis dolorem temporibus assumenda labore?</p>
+              <h3>AVTAR</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <div class="test_review d-flex justify-content-center align-items-center">
+            <img src="avtr.jpg" alt="img" class="img-fluid">
+            <div class="text">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto sed ullam ipsam, accusantium corporis ipsum quis dolorem temporibus assumenda labore?</p>
+              <h3>AVTAR</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <div class="test_review d-flex justify-content-center align-items-center">
+            <img src="avtr.jpg" alt="img" class="img-fluid">
+            <div class="text">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto sed ullam ipsam, accusantium corporis ipsum quis dolorem temporibus assumenda labore?</p>
+              <h3>AVTAR</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+
+
+  <!-- footer start here  -->
+
+  <footer class="footer_index">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="footer_inner">
+            <p>Chef Taylor Bonnyman, working in collaboration with Head Chef Marguerite Keogh, offer elegant & playful
+              modern British cooking.</p>
+
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+          <div class="footer_inner">
+            <ul class="list-group list-inline">
+              <li class="list-item py-2"><a href="new.html">HOME</a></li>
+              <li class="list-item py-2"><a href="#">MENU</a></li>
+              <li class="list-item py-2"><a href="#">RESERVATION</a></li>
+              <li class="list-item py-2"><a href="#">SHOP</a></li>
+              <li class="list-item py-2"><a href="#">NEWS</a></li>
+              <li class="list-item py-2"><a href="#">CONTACT</a></li>
+
+            </ul>
+
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="footer_inner text-center">
+            <button class="btn" type="button"> RESERVATION</button>
+            <h3>FOLLOW</h3>
+            <div class="px-2 icon_footer">
+              <i class="px-2 fab fa-facebook-f"></i>
+              <i class="px-2 fab fa-instagram"></i>
+              <i class="px-2 fab fa-twitter"></i>
+              <i class="px-2 fab fa-snapchat-ghost"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="footer_inner">
+            <p class="address">
+              +91-8920319011 <br>
+              bookatable@resturent.com <br>
+              Dehli, India
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+  </div>
+</body>
+
+</html>
